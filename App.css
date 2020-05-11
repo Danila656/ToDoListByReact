@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: #bcf8ff;
+    display: flex;
+    justify-content: center;
+    -webkit-user-select: none;
+}
+
+.cancel-button:hover {
+    color: rgb(255, 200, 0);
+    border: 2px solid transparent;
+}
+
+a {
+    border: 2px solid transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    border: solid black 2px;
+    color: white;
+}
+
+.unit-with-ready-text {
+    text-decoration: line-through;
+    color: black;
+}
+
+input {
+    color: #636363;
+    background-color: #fff5cd;
+    width: 250px;
+    height: 44px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.task-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unit-with-delete-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.unit-with-delete-buttons a {
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 15px 20px 13px 20px;
+}
+
+.delete-all-tasks-button {
+    background-color: #c46c6c;
+    color: #c1c1c1;
+}
+
+.delete-ready-tasks-button {
+    background-color: #91c48c;
+    color: #dddddd;
+}
+
+.unit-with-task-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+
+.task {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 350px;
+    background-color: #8a84ff;
+}
+
+.ready-task-name {
+    color: #9bff99;
+}
+
+.task-name {
+    color: #ffd935;
+}
+
+.unit-with-task-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    width: 250px;
+    flex-wrap: wrap;
+    word-break: break-all;
+    color: #fff6f8;
+}
+
+.delete-button:hover {
+    color: red;
+    border: 2px solid transparent;
+}
+
+.accept-button:hover {
+    color: green;
+    border: 2px solid transparent;
+}
+
+.add-button {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 15px 15px 17px 15px;
+    background-color: #9cf09b;
+    margin-left: 5px;
+    color: #f8f8f8;
+}
